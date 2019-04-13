@@ -1,0 +1,17 @@
+{
+  "name": "es6_jogo01",
+  "version": "1.0.0",
+  "description": "Game Babel criado com javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babal": "babel /js/gameBabel.js -o game.js -w"
+  },
+  "author": "Brenno",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3"
+  }
+}
