@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "babal": "babel /js/gameBabel.js -o game.js -w"
+    "babel": "babel ./js/gameBabel.js -o ./js/game.js -w"
   },
   "author": "Brenno",
   "license": "ISC",
